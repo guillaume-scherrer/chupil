@@ -1,0 +1,13 @@
+body
+{
+	background-image: url(../img/bg.jpg);
+	background-size: 100%;
+}
+#gauche
+{
+	background-color: #ea3e3e;
+}
+#droite
+{
+	background-color: #31c451;
+}
