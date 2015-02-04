@@ -2,26 +2,19 @@ html
 {
 	background-image: url("../img/Alone-in-the-fields.jpg");
 	background-size: 100%;
-	padding: 0px;
-	margin: 0px;
-}
-}
-body
-{
-	padding: 0px;
-	margin: 0px;
 }
 #logo
 {
-	height: 50px;
-	width: 75px;
+	height: 76px;
+	width: 116px;
+	margin-top: -15px;	
 }
-#menu
+/*nav#menu
 {
 	background-color: #352e2c;
-	height: 60px;
-	width: 110%;
-	margin-top: -10px;
-	padding-left: -10px;
-}
+}*/
 
+div.container-fluid
+{
+	height: 76px;
+}
