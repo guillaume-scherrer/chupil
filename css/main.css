@@ -1,0 +1,27 @@
+html
+{
+	background-image: url("../img/Alone-in-the-fields.jpg");
+	background-size: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+}
+body
+{
+	padding: 0px;
+	margin: 0px;
+}
+#logo
+{
+	height: 50px;
+	width: 75px;
+}
+#menu
+{
+	background-color: #352e2c;
+	height: 50px;
+	width: 100%;
+	margin-top: -10px;
+	padding-left: -10px;
+}
+
