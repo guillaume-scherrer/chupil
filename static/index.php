@@ -58,8 +58,19 @@
 			margin: auto;
 			width: 800px;
 		}
+		#loader{
+			position: absolute;
+			bottom: 10px;
+			left: 45px;
+			-webkit-transition: -webkit-transform 2s; 
+    		transition:  transform 2s;
+		}
+		#loader:hover {
+		    -webkit-transform: rotate(360deg); 
+		    transform: rotate(360deg);
+		}
 	</style>
-	 <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
         <meta charset="utf-8">
         <title>Chupil</title>
         <meta name="generator" content="Onasus.com" />
@@ -70,7 +81,9 @@
 	<div id="rowd" class="containerd">
 		<div class="row">
 			<div id="top" class="col-lm-8"> 
-				<img src="img/logo_min.png">
+		<img id="loader" src="img/load.png">
+
+				<img id="logo" src="img/logo_min.png">
 			</div>		
 		</div>
 	</div>
@@ -120,59 +133,3 @@
         
     </body>
 </html>
-<<<<<<< HEAD
-
-
-<!--<head>
-	<title>Chupil</title>
-	<link rel="icon" href="img/logo_16px.ico">
-	<meta charset="utf-8">
-	<style>
-		html,body{
-			background-color: #352e2c;
-			margin: 0;
-		}
-		div{
-			width: 828px;
-			height: 243px;
-			margin: auto; 
-			position: fixed;
-			top: 50%;
-			margin-top: -175px;
-			left: 50%;
-			margin-left: -414px;		
-		}
-		#logo { 
-			
-		}
-		div span{
-			width: 50px;
-			display: block;
-			margin: auto;
-			font-family: 'Open Sans', Arial, sans-serif;
-			color: white;
-			font-size: 8px;
-		}
-		
-		#loader{
-			position: absolute;
-			bottom: 10px;
-			left: 45px;
-			-webkit-transition: -webkit-transform 2s; 
-    		transition:  transform 2s;
-		}
-		#loader:hover {
-		    -webkit-transform: rotate(360deg); 
-		    transform: rotate(360deg);
-		}
-	</style>
-</head>
-<body>
-	<div>
-		<img id="loader" src="img/load.png">
-		<img id="logo" src="img/logo_min.png">
-	</div>
-
-</body>-->
-=======
->>>>>>> 415837809c19de48d91522b1611eb9e6b712efb1
