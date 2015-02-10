@@ -99,7 +99,7 @@
     // Envoi du mail
     if (mail($cible, $objet, $message, $headers))
     {
-    echo '<span class="glyphicon glyphicon-ok"></span>'."Votre mail a bien était envoyé". '<a class="btn btn-block" href="index.html">Retour à la page d\'accueil</a>';
+    echo '<span class="glyphicon glyphicon-ok"></span>'."Votre email a bien été envoyé". '<a class="btn btn-block" href="index.html">Retour à la page d\'accueil</a>';
 
     }
     else

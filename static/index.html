@@ -4,72 +4,8 @@
 	<title>Chupil</title>
 	<link rel="icon" href="img/logo_16px.ico" />
 	<meta charset='utf-8'>
-	<style>
-		
-		html{
-			background-color: #352e2c;
-			margin: 0;
-			overflow-x: hidden;
-		}
-		
-		
-		
-		#top{
-			background-color: #352e2c;
-			width: 828px;
-			height: 243px;
-			margin: auto; 
-			position: relative;
-			top: 50px;
-		}
-		
-		h1.text-center{
-			color: white;
-		}
-
-		.rowd{
-			position: absolute;
-			margin: auto;
-			width: 828px;
-			height: 243px;
-		}
-		.row div{
-			display: block;
-			
-		}
-		
-		#form{
-			position: relative;
-			top: 150px;
-			margin: auto;
-			width: 640px;
-			min-height: 300px;
-			height: auto;
-		}
-		.row{
-			margin: 0;
-			padding: 0;
-		}
-		*{
-			margin: 0;
-			padding: 0;
-		}
-		form div{
-			margin: auto;
-			width: 800px;
-		}
-		#loader{
-			position: absolute;
-			bottom: 10px;
-			left: 45px;
-			-webkit-transition: -webkit-transform 2s; 
-    		transition:  transform 2s;
-		}
-		#loader:hover {
-		    -webkit-transform: rotate(360deg); 
-		    transform: rotate(360deg);
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
         <meta charset="utf-8">
         <title>Chupil</title>
@@ -91,45 +27,45 @@
 	
  	<form id='form' role="form" method='POST' action='contact.php'>
  	<div class="row">
- 		<div class="col-xs-3">
+ 		<div class="col-sm-3">
  			<h4 style="color: white;"> Contactez nous: </h4>
  		</div>
  	</div>
 				<div class="row form-group">
-					<div class="col-xs-5">
+					<div class="col-sm-5">
 						<input class="form-control" id="prenom" name="prenom" placeholder="Prenom" required="" type="text">
 					</div>            
 				
-					<div class="col-xs-5">
+					<div class="col-sm-5">
 						<input class="form-control" id="nom" name="nom" placeholder="Nom" required="" type="text">            
 					</div>        
 				</div>        
 				<div class="row form-group">            
-					<div class="col-xs-5">                
+					<div class="col-sm-5">                
 						<input class="form-control" name="email" placeholder="Email" required="" type="email">
 					</div>
-					<div class="col-xs-5">                
+					<div class="col-sm-5">                
 						<input class="form-control" name="phone" placeholder="Téléphone"  type="phone">
 					</div>        
 				</div>        
 				<div class="row form-group">            
-					<div class="col-xs-10">                
+					<div class="col-sm-10">                
 						<input class="form-control" placeholder="Website URL"  type="homepage">
 					</div>        
 				</div>
 				<div class="row form-group">            
-					<div class="col-xs-10">                
+					<div class="col-sm-10">                
 						<input class="form-control" placeholder="Objet" name="objet" required="" type="text">
 					</div>        
 				</div>
 				<div class="row form-group">            
-					<div class="col-xs-10">                
+					<div class="col-sm-10">                
 						<textarea class="form-control" rows="5" required="true" name="message">Votre message...</textarea>
 					</div>        
 				</div>
 				        
 				<div class="row form-group">            
-					<div class="col-xs-10">                
+					<div class="col-sm-10">                
 						<button class="btn btn-default pull-right">Envoyer</button>
 					</div>        
 				</div>
